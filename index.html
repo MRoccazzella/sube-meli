@@ -5,8 +5,43 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Confirmacion de pago</title>
+   
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/sweetalert2@9.17.2/dist/sweetalert2.all.min.js">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap" rel="stylesheet"> 
+    <link rel="stylesheet" href="./assets/css/styles.css">
 </head>
 <body>
-    
+    <header>
+        <img class="logo" src="./assets/images/logo_sml.png" alt="">
+        <section class="encabezado">
+            <h1 class="pago">Complete su pago</h1>
+        </section>
+        <section class="encabezado" id="encabezado">  
+        </section>
+        <button class="recarga" id="recarga">Recargar SUBE</button>
+        <div class="inactivo cuadroRecarga" id="cuadroRecarga">
+            <div class="contenedorRecarga">
+                <h3 class="textoRecarga">Elija el monto de recarga</h3>
+                <p class="cerrar" id="cerrar">X</p>
+            </div>
+            <button class="precioRecarga" id="recarga50">$50</button>
+            <button class="precioRecarga" id="recarga100">$100</button>
+            <button class="precioRecarga" id="recarga500">$500</button>
+            <button class="precioRecarga" id="recarga1000">$1000</button>
+        </div>
+    </header>
+    <main>
+        
+        <div class="contenedor">
+            <img class="img-pago" src="./assets/images/img-pago.png" alt="">
+            <h2  class="costo">Valor: $30</h2>
+        </div>
+        <button class="pagar" id="pagar">PAGAR</button>
+    </main>
+    <footer></footer>
+    <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script src="./assets/js/script.js"></script>
 </body>
 </html>

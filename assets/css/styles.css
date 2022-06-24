@@ -1,0 +1,122 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+@media (max-width: 480px){
+    .logo{
+        width: 100vw;
+        height: 100vh;
+        opacity: 0.15;
+        position: absolute;
+        z-index: -1;
+    }
+    .encabezado{
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        flex-wrap: nowrap;
+        flex-direction: column;
+        width: 100vw;
+        height: auto;
+    }
+    .pago{
+        width: 100%;
+        background-color: rgb(110, 249, 68);
+        color: white;
+        padding: 15px;
+        font-family: 'Montserrat', sans-serif;;
+    }
+    .saldoSube{
+        color: black;
+        width: 70%;
+        margin-top: 80px;
+        padding: 5px;
+        border: solid rgb(110, 249, 68);
+        margin-left: 15%;
+        font-family: 'Montserrat', sans-serif;
+        font-size:1.5em;
+        font-weight: bolder;
+    }
+    main{
+        display: flex;
+        justify-content: center;
+        height: 50vh;
+        width: 100vw;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        text-align: center;
+        margin-top: 200px  ;
+    }
+    .costo{
+        width: 35vw;
+        font-family: 'Montserrat', sans-serif;
+    }
+    .pagar{
+        font-size: 2em;
+        width: 80vw;
+        margin-left: 10vw;
+        margin-top: 80px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        background-color: white;
+
+    }
+    .contenedor{
+        display: flex;
+        align-items: center;
+        width: 55vw;
+        margin-top: 40px;
+        margin-left: 22.5vw;
+        border: black 1px solid;
+        padding: 5px;
+        background-color: white;
+        border-radius: 10px;
+    }
+    .img-pago{
+        width: 40px;
+        height: 40px;
+    }
+    .recarga{
+        width: 40vw;
+        padding: 2px;
+        margin-top: 10px;
+        margin-left: 30vw;
+        background-color: white;
+        font-size: 1em;
+    }
+    .cuadroRecarga{
+        margin-top: 50px;
+        width: 50vw;
+        background-color: white;
+        border: solid black 1px;
+        border-radius: 10px;
+        margin-left: 25vw;
+        padding: 10px;
+        position: absolute;
+        text-align: center;
+    }
+    .contenedorRecarga{
+        display: flex;
+        flex-wrap: nowrap;
+        flex-direction: row;
+    }
+    .textoRecarga{
+        width: 90%;
+        margin-bottom: 20px;
+        font-family: 'Montserrat', sans-serif;
+    }
+    .precioRecarga{
+        width: 90px;
+        font-size: 1.25em;
+    }
+    .inactivo{
+        display: none;
+    }
+    .cerrar{
+        height: min-content;
+        border: solid;
+        width: 10%;
+    }
+}
+
